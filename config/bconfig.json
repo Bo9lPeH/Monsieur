@@ -1,0 +1,14 @@
+{
+    "prefix" : "/",
+    "version" : "4.1.9",
+    "game" : "commands: /help",
+    "name_bot" : "SUDAR",
+    "author" : "Дискорд: Bo9lPeH#7278 | vk:https://vk.com/golddaimond",
+    "ownerID" : "330335977300033538",
+    "maximID" : "406896484823334915",
+    "SudarID" : "508358809077678100",
+    "command" : "77",
+    "OfServer": "454890621501702147",
+    "bannedUser" : "330335977300033538",
+    "welcomechannel" : ["2", "🤗новые-гости🔶"]
+}
