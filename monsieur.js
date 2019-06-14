@@ -27,7 +27,7 @@ sdr.commands              = new Discord.Collection();                      //К�
 sdr.on('ready', async () => {
 
 
-    sdr.user.setActivity(`${config.game}`, { type: "WATCHING"})
+    //sdr.user.setActivity(`${config.game}`, { type: "WATCHING"})
     console.log(`
 ╔════════════════════════════════════════════════════════════════
 ║${GrayStyle(` ▀█ █████████████████▀▀   ██ ████`)}
