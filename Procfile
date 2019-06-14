@@ -1,1 +1,1 @@
-worker: node.js monsieur.js
+worker: node monsieur.js
