@@ -2,7 +2,7 @@ const Discord             = require("discord.js");             //библиот�
 const sdr                 = new Discord.Client({disableEveryone: true});     //имя клиент
 const config              = require("./config/bconfig.json"); //путь до конфига
 const fs                  = require('fs');                   //патч на формат fs
-const sql                 = require("sqlite");              //патч на формат sqlite npm install sqlite
+//const sql                 = require("sqlite");              //патч на формат sqlite npm install sqlite
 const ytdl                = require('ytdl-core');          //патч на ссылки ютуб для музыки npm install ytsl-core
 const moment              = require('moment');            //патч на отображение формата времени npm install moment
 const chalk               = require('chalk');            //патч на цветну консоль npm install chalk
@@ -19,7 +19,7 @@ const GrayStyle           = chalk.gray;                   // серый
 const RedBackground       = chalk.bgRed                  // Фон красный
 
 //Прочие
-sql.open("./score.sqlite");                                                 //Путь для sqlite файла
+//sql.open("./score.sqlite");                                                 //Путь для sqlite файла
 sdr.commands              = new Discord.Collection();                      //Колекция команд
 const talkedRecently      = new Set();                                    //Новое значение
 const rank = require('rank')
