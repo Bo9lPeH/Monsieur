@@ -3,26 +3,25 @@ const sdr                 = new Discord.Client({disableEveryone: true});     //�
 const config              = require("./config/bconfig.json"); //путь до конфига
 const fs                  = require('fs');                   //патч на формат fs
 //const sql                 = require("sqlite");              //патч на формат sqlite npm install sqlite
-const ytdl                = require('ytdl-core');          //патч на ссылки ютуб для музыки npm install ytsl-core
-const moment              = require('moment');            //патч на отображение формата времени npm install moment
+//const moment              = require('moment');            //патч на отображение формата времени npm install moment
 const chalk               = require('chalk');            //патч на цветну консоль npm install chalk
-const Canvas              = require('canvas');          //патч на создание фоток
-const snekfetch           = require('snekfetch');      //доп для canvas
+//const Canvas              = require('canvas');          //патч на создание фоток
+//const snekfetch           = require('snekfetch');      //доп для canvas
 //const ms                  = require('ms');            //Патч на секунды
-const money               = require('discord-money');
+//const money               = require('discord-money');
 const GreenStyle          = chalk.green;                       //Зелёный
 const RedStyle            = chalk.red;                        //Крассный
-const BlueStyle           = chalk.blue;                      //Синий
-const YellowStyle         = chalk.yellow;                   //Жёлтый
-const MagentaStyle        = chalk.magentaBright;           //серенивый
+//const BlueStyle           = chalk.blue;                      //Синий
+//const YellowStyle         = chalk.yellow;                   //Жёлтый
+//const MagentaStyle        = chalk.magentaBright;           //серенивый
 const GrayStyle           = chalk.gray;                   // серый
-const RedBackground       = chalk.bgRed                  // Фон красный
+//const RedBackground       = chalk.bgRed                  // Фон красный
 
 //Прочие
 //sql.open("./score.sqlite");                                                 //Путь для sqlite файла
 sdr.commands              = new Discord.Collection();                      //Колекция команд
-const talkedRecently      = new Set();                                    //Новое значение
-const rank = require('rank')
+//const talkedRecently      = new Set();                                    //Новое значение
+//const rank = require('rank')
 
 
 sdr.on('ready', async () => {
