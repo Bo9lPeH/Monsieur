@@ -1,0 +1,14 @@
+
+{
+  "name": "Monsieur",
+  "description": "Тест",
+  "version": "0.0.0",
+  "main": "Monsieur.js",
+  "scripts": {
+    "start": "node Monsieur.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
